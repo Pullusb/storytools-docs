@@ -20,9 +20,9 @@ Move active object perpendicular to view
 
 Modifiers:  
 `X` (toggle): lock on X view axis 
-`Y` (toggle): lock on Y view axis
-`Ctrl` (during press): Lock on X or Y view axis depending on free movements  
-`Shift` (during press): Precision mode
+`Y` (toggle): lock on Y view axis  
+`Ctrl` (during press): Lock on X or Y view axis depending on free movements    
+`Shift` (during press): Precision mode  
 
 ### Move forward / backward
 
@@ -39,9 +39,9 @@ Move the camera along view axis x-y plane
 
 Modifiers:  
 `X` (toggle): lock on X view axis 
-`Y` (toggle): lock on Y view axis
+`Y` (toggle): lock on Y view axis  
 `Ctrl` (during press): Lock on X or Y view axis depending on free movements  
-`Shift` (during press): Precision mode
+`Shift` (during press): Precision mode  
 
 
 ## Draw actions
