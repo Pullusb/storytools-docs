@@ -18,18 +18,43 @@ Note that some action are always relative to camera view, see details below
 
 Move active object perpendicular to view
 
-Modifiers:  
-`X` (toggle): lock on X view axis 
-`Y` (toggle): lock on Y view axis  
-`Ctrl` (during press): Lock on X or Y view axis depending on free movements    
-`Shift` (during press): Precision mode  
+`X` (toggle) : lock on X view axis 
+`Y` (toggle) : lock on Y view axis  
+`Ctrl` : Lock on X or Y view axis depending on free movements    
+`Shift` : Precision mode  
 
 ### Move forward / backward
 
 Move the object in depth relative to camera
 
+`Ctrl` : Adjust Scale so object retain same size in camera frame  
+`Shift` : Precision mode  
+`Alt` : Constraint on horizontal plane  
+
 > Note that even if you're in free navigation, it will still on the depth relative to camera
 
+### Rotate
+
+Rotate object on view axis
+
+`Ctrl` : Snap on 15 degrees angles  
+`Shift` : Precision mode  
+
+
+### Scale
+
+Scale object, drag left<->right
+
+`Shift` : Precision mode
+
+
+### Align to view
+
+
+Align object with view
+
+`Ctrl` : Set object Z axis pointing up while aligning  
+`Shift` : Bring selected objects in front of camera  
 
 ## Camera actions
 
@@ -38,10 +63,18 @@ Move the object in depth relative to camera
 Move the camera along view axis x-y plane
 
 Modifiers:  
-`X` (toggle): lock on X view axis 
-`Y` (toggle): lock on Y view axis  
-`Ctrl` (during press): Lock on X or Y view axis depending on free movements  
-`Shift` (during press): Precision mode  
+`X` (toggle) : lock on X view axis 
+`Y` (toggle) : lock on Y view axis  
+`Ctrl` : Lock on X or Y view axis depending on free movements  
+`Shift` : Precision mode  
+
+### Rotate
+
+Rotate camera, rotate view in free view
+
+`Ctrl` : Snap on 15 degrees angles  
+`Shift` : Precision mode  
+`Double click` : Reset rotation
 
 
 ## Draw actions
