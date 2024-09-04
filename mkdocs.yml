@@ -1,0 +1,23 @@
+### Site metadata ###
+
+site_name: Storytools Documentation
+site_description: Documenations for Storytools Blender addon
+site_author: 'Samuel Bernou'
+site_url: https://pullusb.github.io/storytools-docs
+repo_url: https://github.com/Pullusb/storytools-docs
+edit_uri: edit/main/docs
+docs_dir: docs/
+
+### Build settings ###
+
+theme:
+  name: readthedocs
+
+nav:
+  - Home: index.md
+  - About Storytools: about-storytools.md
+#   - Tutorial:
+#       - TL;DR: tutorial/tldr.md
+#       - Installation: tutorial/installation.md
+#       - Set up project: tutorial/setup-project.md
+#       - Advanced: tutorial/advanced.md
