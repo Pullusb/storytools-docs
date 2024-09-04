@@ -3,11 +3,11 @@
 
 Storytools add controls and objects management
 
-To setup the shots, you need to use Spa-sequencer addon (recommended) but you can use any alternative you prefer (ex: Storypencil)
+To setup the shots, you need to use *Spa-sequencer* addon (recommended) but you can use any alternative you prefer (ex: Storypencil)
 
-Spa-sequencer has a very complete documentation : https://the-spa-studios.github.io/blender-spa-userdoc/
+**Spa-sequencer** has a very complete documentation : https://the-spa-studios.github.io/blender-spa-userdoc/
 
-The addon should be used with a special SPA build (windows only, link in spa-documentation).
+The addon is meant to be used with a special SPA build (windows only, link in spa-documentation homepage).  
 But it can actually be used with Blender vanilla, at the cost of having to use a dual window, one for the sequencer, the other for the viewport.
 
 In the future, it will be possible to use in standard blender in single window mode.

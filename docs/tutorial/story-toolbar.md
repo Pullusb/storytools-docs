@@ -16,11 +16,12 @@ Note that some action are always relative to camera view, see details below
 
 ### Move
 
-Move active object relative to view
+Move active object relative to view  
 Modifiers:
-`X`: lock on X view axis (toggle)
-`Y`: lock on Y view axis (toggle)
-`Ctrl`: snap on X or Y view axis depending on free movement
+`X`: lock on X view axis (toggle)  
+`Y`: lock on Y view axis (toggle)  
+`Ctrl`: Lock on X or Y view axis depending on free movements  
+`Shift`: Precision mode
 
 ### Move forward / backward
 
