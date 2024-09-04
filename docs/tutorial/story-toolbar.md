@@ -16,12 +16,13 @@ Note that some action are always relative to camera view, see details below
 
 ### Move
 
-Move active object relative to view  
-Modifiers:
-`X`: lock on X view axis (toggle)  
-`Y`: lock on Y view axis (toggle)  
-`Ctrl`: Lock on X or Y view axis depending on free movements  
-`Shift`: Precision mode
+Move active object perpendicular to view
+
+Modifiers:  
+`X` (toggle): lock on X view axis 
+`Y` (toggle): lock on Y view axis
+`Ctrl` (during press): Lock on X or Y view axis depending on free movements  
+`Shift` (during press): Precision mode
 
 ### Move forward / backward
 
@@ -29,12 +30,18 @@ Move the object in depth relative to camera
 
 > Note that even if you're in free navigation, it will still on the depth relative to camera
 
+
 ## Camera actions
 
 ### Move camera
 
-Move the camera along x/y view axis
+Move the camera along view axis x-y plane
 
+Modifiers:  
+`X` (toggle): lock on X view axis 
+`Y` (toggle): lock on Y view axis
+`Ctrl` (during press): Lock on X or Y view axis depending on free movements  
+`Shift` (during press): Precision mode
 
 
 ## Draw actions
