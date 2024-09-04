@@ -1,18 +1,10 @@
 # About Storytools
 
 
-## What is Storytools?
-
-Storytools is a Blender addon that add more controls for 2D oriented artists and extend Blender with storyboarding capabilties
-
-Used in tandem with spa-sequencer (shot management) for a full storyboard settings.
+You're reading the documentation for [Storytools](https://github.com/Pullusb/storytools) Blender addon.
 
 
-## Resources
-
-- [Storytools](https://github.com/Pullusb/storytools) homepage
-- [Release notes](https://github.com/Pullusb/storytools/blob/master/CHANGELOG.md) for Storytools.
-<!-- - [Storytools Wiki](https://github.com/Storytools/Storytools/wiki) -->
+Here is a link to the [release notes](https://github.com/Pullusb/storytools/blob/master/CHANGELOG.md).
 
 
 ## Reasons to use Storytools

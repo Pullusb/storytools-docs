@@ -9,9 +9,7 @@ Storytools is available on the [official repository](https://github.com/Pullusb/
 
 ## Requirements
 
-- [Blender](https://www.blender.org/) version 3.0+
-
-- Or [SPA build](https://the-spa-studios.github.io/blender-spa-userdoc/) (windows only)
+- [Blender](https://www.blender.org/) version 3.0+ (or [SPA build](https://the-spa-studios.github.io/blender-spa-userdoc/) Windows only)
 
 
 <!-- ## Manual installation

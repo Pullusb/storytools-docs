@@ -16,8 +16,9 @@ theme:
 nav:
   - Home: index.md
   - About Storytools: about-storytools.md
-#   - Tutorial:
-#       - TL;DR: tutorial/tldr.md
-#       - Installation: tutorial/installation.md
-#       - Set up project: tutorial/setup-project.md
+  - Tutorial:
+      - Installation: tutorial/installation.md
+      - Project Setup : tutorial/setup-project.md
+      - Bottom Bar : tutorial/story-toolbar.md
+      - Shot Management : tutorial/shot-management.md
 #       - Advanced: tutorial/advanced.md
