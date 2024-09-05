@@ -7,10 +7,11 @@ The bottom bar contain some useful actions to move around object and camera.
 
 Most of the actions affect only active object/camera.
 
-Those actions work regardless of the mode you're in, meaning you can move active object without leaving draw mode
+Those actions work regardless of the mode you're in, meaning you can move active object without leaving draw mode.
 
-Note that some action are always relative to camera view, see details below
+Note: Some action are always relative to camera view, see details below
 
+You can collapse the bar or disable it completely in addon preferences
 
 ## Object actions
 
