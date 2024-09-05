@@ -19,6 +19,7 @@ nav:
   - Tutorial:
       - Installation: tutorial/installation.md
       - Project Setup : tutorial/setup-project.md
+      - Sidebar Panels : tutorial/sidebar-panel.md
       - Bottom Bar : tutorial/story-toolbar.md
       - Shot Management : tutorial/shot-management.md
-#       - Advanced: tutorial/advanced.md
+      - Resources: tutorial/resources.md
