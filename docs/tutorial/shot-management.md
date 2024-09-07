@@ -12,6 +12,9 @@ If you want to learn more in detail about how it works and it's origin, look at 
 To resume shortly. It is simple, powerfull and versatile at the same time.
 
 
+As of now (sept 2024), it's preferable to use the more up to date fork [SPArk, get it here](https://github.com/NickTiny/SPArk-sequencer-addon) ()
+
+
 Go here for the official [spa-sequencer documentation](https://the-spa-studios.github.io/blender-spa-userdoc/layout/)
 
 

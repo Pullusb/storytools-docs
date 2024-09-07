@@ -36,8 +36,11 @@ On Blender version before 4.2, see this tutorial on [how to install Blender addo
 Storytools take only care of objects management and controls in viewport.  
 For a full storyboard setup, it need to be used in tandem with another addon to handle the shot management
 
-It is srongly recommended to use [spa-sequencer addon](https://github.com/The-SPA-Studios/sequencer-addon) or it's fork [SPArk](https://github.com/NickTiny/SPArk-sequencer-addon)
+It is srongly recommended to use **Spa-sequencer**.  
+As of now (sept 2024), it's preferable to use **SPArk** a more up to date fork, [Get SPArk here](https://github.com/NickTiny/SPArk-sequencer-addon)
 
-Though you can use any other means for shot management, it's spa-sequencer that will be referenced in this documentation.
+Here is the link to [original spa-sequencer repository](https://github.com/The-SPA-Studios/sequencer-addon)
+
+Though you can use any other means for shot management, it's spa-sequencer/SPArk that will be referenced in this documentation.
 
 For more infos about it, head to the [shot management page](tutorial/shot-management.md)
