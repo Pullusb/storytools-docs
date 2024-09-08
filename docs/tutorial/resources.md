@@ -30,7 +30,8 @@ Including the `Draw cam` method, allowing rotation within camera view, without a
 
 Here is a [demo video](https://www.youtube.com/watch?v=Htgao_uPWNs) (not covering everything)
 
-> Recommended mainly for 2D animation workflow, but storyboard as well, if only for the `draw cam` feature.
+> Recommended mainly for 2D animation workflow, but storyboard as well
+<!-- > if only for the `draw cam` feature. -->
 
 
 ## NijiGPen
