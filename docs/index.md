@@ -32,10 +32,11 @@ Starting blender 4.2, you can simply drag-n-drop downloaded zip file on Blender 
 On Blender version _before_ 4.2, see this tutorial on [how to install Blender addons](https://github.com/Pullusb/How_to_install_Blender_addons): 
 
 
-## Use of SPA sequener
+## Sequencer tool
 
-Storytools take only care of objects management and controls in viewport.  
-For a full storyboard setup, it need to be used in tandem with another addon to handle the shot management
+Storytools take only care of objects management and controls in viewport.
+
+For a full storyboard setup, it need to be used in tandem with another addon to handle the sequence and shot management
 
 Though you can use any other means for shot management, it's  **Spa-sequencer** addon, created at SPA studios that will be referenced in this documentation.
 
@@ -48,4 +49,4 @@ For more infos about this, head to the [shot management page](tutorial/shot-mana
 
 ## Storyboard Quick start
 
-To directly jump into storyboard setup with step by step guide, go to the [Setup Project](tutorial/setup-project.md)
+To directly jump into a storyboard setup with step by step guide, go to the [Setup Project](tutorial/setup-project.md) section.
