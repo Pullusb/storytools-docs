@@ -28,8 +28,8 @@ If it does not work, go to `Edit > Preferences > addons` and uses `install from 
 ![install from disk](../images/setup/blender_install_from_disk.png)
 
 
-## How to use Spa-sequencer in Blender standard
 
+## How to use Spa-sequencer in Blender standard
 
 
 ### Setup scenes
@@ -40,7 +40,7 @@ Create a new scene and name it `EDIT`
 
 ![add new scens](../images/setup/seq_create_scenes.png)
 
-> You can also create new scenes with `TEMPLATE_SHOT_` prefix. The content will be use in new shot using this template
+> You can also create new scenes named with `TEMPLATE_SHOT_` prefix. New scene can be created directly in sequencer using this template.
 
 
 ### Dual window setup
@@ -79,9 +79,9 @@ You can add, duplicate, remove shots in the sequencer `Shots` menu
 
 At this point your basically set.
 
-The youtuve video [Demo of The SPA Studios' Sequence Toolset in Blender] by Nick Alberelli, explain how use the sequencer.
+The youtuve video [Demo of The SPA Studios' Sequence Toolset in Blender](https://www.youtube.com/watch?v=pQwSo5sGBeY) by Nick Alberelli, explain how use the sequencer.
 
-For more details you can follow the official [Spa-sequencer documentation](https://the-spa-studios.github.io/blender-spa-userdoc/layout/#your-first-shot) (except that you'll have to play with two window instead of one)
+For more details, you also have the written [Spa-sequencer documentation](https://the-spa-studios.github.io/blender-spa-userdoc/layout/#your-first-shot) (except that you'll have to play with two window instead of one)
 
 
 ## Add Drawing with storytools
