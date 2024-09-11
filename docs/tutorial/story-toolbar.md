@@ -104,7 +104,7 @@ Add key on active camera location and rotation
 
 ## Draw actions
 
-### Lock Current View
+### Lock current view
 
 Lock current viewport orbit navigation.  
 when toggled on, the orbit shortcut becomes and additional Pan.  
@@ -115,5 +115,7 @@ This way you can't accidentally go out of camera or ensure you stay in the same 
 If a Grease pencil object is active : Toggle between Draw mode and Object mode.  
 If no Grease pencil active. Set the first on visible in scene as active.  
 Popup "add GP" if no GP object exists in scene.
+
+> Note that upper tool preset also set draw mode (in default settings)
 
 <!-- `Ctrl` : Add a new object -->

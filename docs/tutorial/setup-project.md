@@ -14,19 +14,25 @@ This tutorial will explain how to work with the *Spa-sequencer* addon in Blender
 > But it can actually be used with Blender standard, at the cost of having to use dual window, one for the sequencer, the other for the viewport.
 > In the future, it should be possible to use it in standard blender in single window mode.
 
-## Install addons
+## Install
 
-The first step if is to download install and enable the addons:
+You need Blender software:
 
-- Get latest [storytools release with this link](https://github.com/Pullusb/storytools/archive/refs/heads/master.zip)
-- Get latest [SPArk (a spa-sequencer fork) on this page](https://github.com/NickTiny/SPArk-sequencer-addon/releases)
+Get latest [Blender on download page](https://www.blender.org/download/)  
+/!\ Use maximum 4.2, as 4.3+ use the new Grease pencil v3 and ar not compatible with lots of addon for now
+
+> If you want to manage multiple version and easy downloads, check [Blender launcher in resources section](./resources.md#blender-launcher)
+
+Next step is to download, install and enable the addons:
+
+- Get latest [storytools on repository page](https://github.com/Pullusb/storytools) or directly [download latest](https://github.com/Pullusb/storytools/archive/refs/heads/master.zip)
+- Get latest [SPArk (spa-sequencer fork) on repository's release page](https://github.com/NickTiny/SPArk-sequencer-addon/releases) (click on latest "spa_sequencer_x_x_x.zip")
 
 In Blender 4.2, you just have to drag and drop the zip file on Blender window.
 
 If it does not work, go to `Edit > Preferences > addons` and uses `install from file`
 
 ![install from disk](../images/setup/blender_install_from_disk.png)
-
 
 
 ## How to use Spa-sequencer in Blender standard
@@ -60,7 +66,7 @@ Arrange the window so it stay visible below the the previous one.
 
 > Tips: On _Windows 11_, you can use the shortcut `Win + ↑` to stick the first windows at the top, then you can select the other window to go at the bottom and create a group window
 
-On the new sequencer scene, open the side panel (`N` key with mouse over editor), go to the `SPA-sequencer` tab and point to the `EDIT` scene, then activate `Sync`.  
+On the new sequencer scene, open the side panel (`N` key with mouse over editor), go to the `SPA.sequencer` tab and point to the `EDIT` scene, then activate `Sync`.  
 Now this window will control the shot displayed on the other window.
 
 ![Dual window setup](../images/setup/seq_dual_win_desc.png)
@@ -79,7 +85,7 @@ You can add, duplicate, remove shots in the sequencer `Shots` menu
 
 At this point your basically set.
 
-The youtuve video [Demo of The SPA Studios' Sequence Toolset in Blender](https://www.youtube.com/watch?v=pQwSo5sGBeY) by Nick Alberelli, explain how use the sequencer.
+The youtuve video [Demo of The SPA Studios' Sequence Toolset in Blender](https://www.youtube.com/watch?v=pQwSo5sGBeY) by Nick Alberelli explain how use the sequencer.
 
 For more details, you also have the written [Spa-sequencer documentation](https://the-spa-studios.github.io/blender-spa-userdoc/layout/#your-first-shot) (except that you'll have to play with two window instead of one)
 
@@ -87,3 +93,14 @@ For more details, you also have the written [Spa-sequencer documentation](https:
 ## Add Drawing with storytools
 
 Now you are in a shot, and you want to add a new grease pencil object.
+
+> most editor's sidebar open with `N` key
+
+Use `Storytools > Drawings` in viewport sidebar
+
+![Add Drawing](../images/setup/tool_add_drawing.png)
+
+Enter **Draw mode**, by using _Tab_ or dedicated [bottom bar "pen" button](./story-toolbar.md#set-draw-mode) or by selecting one of the left tools in upper _tool preset_ bar.
+
+
+Draw things !

@@ -2,8 +2,9 @@
 
 There are other addon that can be useful in a 2D animation workflow
 
+## Addons
 
-## Grease Pencil Tools
+### Grease Pencil Tools
 
 **Grease pencil tools** addon is available on the extensions platform (directly included in Blender before 4.2)
 
@@ -19,7 +20,7 @@ it add some quality of life tools:
 
 > Recommended for both 2D animation and Storyboard workflow
 
-## GP Toolbox
+### GP Toolbox
 
 **GP Toolbox** addon is an internal tool of studio [Autour du Volcan](https://advstudios.fr/) and is publicly available.
 
@@ -34,7 +35,7 @@ Here is a [demo video](https://www.youtube.com/watch?v=Htgao_uPWNs) (not coverin
 <!-- > if only for the `draw cam` feature. -->
 
 
-## NijiGPen
+### NijiGPen
 
 **NijiGPen** addon, made by [Chaosinism](https://twitter.com/chaosinism), adds advanced functionnality for stroke cleaning and more
 
@@ -43,15 +44,10 @@ Get the addon and check documentation on the [NijiGPen repository](https://githu
 > Recommended if you need line polishing or advanced coloring feature. Dispensable for storyboard
 
 
-<!-- 
-## Navbar nesting
+## Other
 
-You can add an additional level to your navbar like this:
-```yaml
-nav:
-  - Home: index.md
-  - About: about.md
-  - Foo:
-      - Overview: foo/index.md
-      - Bar: foo/bar.md
-``` -->
+## Blender launcher
+
+Manage multiple blender versions easily with this dedicated program.  
+
+Get latest [Blender launcher](https://victor-ix.github.io/Blender-Launcher-V2/)
