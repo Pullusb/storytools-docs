@@ -1,9 +1,9 @@
-# Bottom toolbar
+# Control bar 
 
 
 ## What's in the bar ?
 
-The bottom bar contain some useful actions to move around object and camera.
+The bottom control bar contain some useful actions to move around object and camera.
 
 Most of the actions affect only active object/camera.
 

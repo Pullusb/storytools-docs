@@ -15,11 +15,12 @@ theme:
 
 nav:
   - Home: index.md
-  - About Storytools: about-storytools.md
   - Tutorial:
       - Installation: tutorial/installation.md
       - Project Setup : tutorial/setup-project.md
       - Sidebar Panels : tutorial/sidebar-panels.md
-      - Bottom Bar : tutorial/story-toolbar.md
+      - Control Bar : tutorial/story-toolbar.md
+      - Tool Presets : tutorial/tool-presets.md
       - Shot Management : tutorial/shot-management.md
       - Resources: tutorial/resources.md
+  - About Storytools: about-storytools.md
