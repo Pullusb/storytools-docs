@@ -8,7 +8,8 @@ In storyboard, you only need a handful of tools, with specific use.
 The tool presets are like macros to set Blender tool with specific options in one action.  
 Each one is defined through a shortcut and appear as button in the `Tool preset topbar` at the top of the viewport.  
 
-<!-- You can hide the topbar in addon preferences if you're not using it, or used to the associated shortcuts -->
+You can hide the topbar in addon preferences (shortcut will stay valid)  
+Topbar margin and spreading can be adjusted as well in preferences.
 
 ## Default tools presets
 
