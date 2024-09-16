@@ -5,14 +5,25 @@
 
 Storytools is a Blender addon, it aim to ease the use of Blender for 2D animator and particularly for storyboard artist.
 
-Main features:
+### Main features
     
 - Simplify objects interaction with more direct controls for 2D oriented artists
-- Extend Blender with storyboarding capabilities
+- Extend Blender storyboarding capabilities by exposing useful native features and adding new ones.
 
 ![Storytools overview](./images/home/storytools_ui_overview.jpg)
 
-More on storytools in the [about](about-storytools.md) section
+
+### Overview of storytools areas
+
+![Storytools areas](./images/home/storytools_ui_areas.png)
+
+- <span style="color: #339966;">**Control Bar:** </span>([Doc page](./tutorial/story-toolbar.md)) Direct objects and camera controls in the viewport.
+- <span style="color: #3366ff;">**Sidebar Tab:** </span>([Doc page](./tutorial/sidebar-panels.md)) All in one properties view to manage grease pencils objects, layers, materials + cameras + additional operators.
+- <span style="color: #ff0000;">**Tool Presets Bar:** </span>([Doc page](./tutorial/tool-presets.md)) Preset buttons and shortcuts to quickly swap grease pencil tools, brush, layers and more.
+
+
+<!-- More on the origin of storytools in the [about](about-storytools.md) section -->
+
 
 
 ## Installation
@@ -36,17 +47,15 @@ On Blender version _before_ 4.2, see this tutorial on [how to install Blender ad
 
 Storytools take only care of objects management and controls in viewport.
 
-For a full storyboard setup, it need to be used in tandem with another addon to handle the sequence and shot management
+It's already usefull for general 2D animations but for a full storyboard setup, it need to be used in tandem with another addon to handle the sequence and shot management
 
-Though you can use any other means for shot management, it's  **Spa-sequencer** addon, created at SPA studios that will be referenced in this documentation.
+Though you can use any other means for shot management, it's  **Spa-sequencer** addon, created at SPA studios that will be referenced in this documentation. More infos about it in the [shot management page](tutorial/shot-management.md).
 
 As of now (sept. 2024) in blender standard it's preferable to use **SPArk** a more up to date fork  
 [Get SPArk here](https://github.com/NickTiny/SPArk-sequencer-addon)
 <!-- Here is the link to [original spa-sequencer repository](https://github.com/The-SPA-Studios/sequencer-addon) -->
 
-For more infos about this, head to the [shot management page](tutorial/shot-management.md)
 
-
-## Storyboard Quick start
+## Storyboard quick start
 
 To directly jump into a storyboard setup with step by step guide, go to the [Setup Project](tutorial/setup-project.md) section.

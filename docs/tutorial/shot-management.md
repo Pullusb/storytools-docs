@@ -1,7 +1,7 @@
 # Shot management
 
 
-## Why SPA sequencer
+## Why SPA sequencer ?
 
 For the shot management, we will be using the **spa-sequencer** addon
 
