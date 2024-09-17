@@ -1,4 +1,4 @@
-# Set up project
+# Setup project
 > How to setup a storyboard session
 
 ## Storytools + shot management
