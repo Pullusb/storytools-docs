@@ -35,13 +35,25 @@ Here is a [demo video](https://www.youtube.com/watch?v=Htgao_uPWNs) (not coverin
 <!-- > if only for the `draw cam` feature. -->
 
 
+### Push To Talk
+
+**Push to talk** allow to do "_Convenient recording of scratch dialog for an edit_" during playback by pushing a button in sequencer header.
+
+Get the addon on [Push to talk repository](https://github.com/britalmeida/push_to_talk)
+
+Made by [Inês Almeida](https://github.com/britalmeida) and contributors.
+
+> Recommended to add quick test dialog/fx on a shot. Help to validate action timing and see if the intention feels right.
+
 ### NijiGPen
 
-**NijiGPen** addon, made by [Chaosinism](https://twitter.com/chaosinism), adds advanced functionnality for stroke cleaning and more
+**NijiGPen** adds advanced functionnality for stroke cleaning and more.
 
 Get the addon and check documentation on the [NijiGPen repository](https://github.com/chsh2/nijiGPen)
 
-> Recommended if you need line polishing or advanced coloring feature. Dispensable for storyboard
+Made by [Chaosinism](https://twitter.com/chaosinism),.
+
+> Recommended if you need line polishing or advanced coloring feature. Not an absolute need for storyboard
 
 
 ## Other
