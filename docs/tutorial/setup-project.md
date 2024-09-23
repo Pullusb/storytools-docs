@@ -40,13 +40,13 @@ If it does not work, go to `Edit > Preferences > addons` and uses `install from 
 
 ### Setup scenes
 
-First, it will need at least one extra scene for the sequence part.
+First, we will need at least one extra scene for the sequence part.
 
-Create a new scene and name it `EDIT`
+Create a new scene and name it `EDIT`, then use the scene selector to reset current window to use `Scene` again (we will use the `EDIT` scene in as dedicated workspace in the next step)
 
 ![add new scens](../images/setup/seq_create_scenes.png)
 
-> You can also create new scenes named with `TEMPLATE_SHOT_` prefix. New scene can be created directly in sequencer using this template.
+> You can also create new scenes named with `TEMPLATE_SHOT_` prefix. After setup, new scenes can be created directly in sequencer using those templates.
 
 
 ### Dual window setup
@@ -64,10 +64,14 @@ Remove all the editors to let only a `sequencer editor visible`
 
 Arrange the window so it stay visible below the the previous one.
 
-> Tips: On _Windows 11_, you can use the shortcut `Win + ↑` to stick the first windows at the top, then you can select the other window to go at the bottom and create a group window
+> Tips: On _Windows 11_, you can use the shortcut `Win + ↑` to stick the first windows at the top, then you can select the other window to go at the bottom, that automatically create a ""window group" in taskbar
 
-On the new sequencer scene, open the side panel (`N` key with mouse over editor), go to the `SPA.sequencer` tab and point to the `EDIT` scene, then activate `Sync`.  
-Now this window will control the shot displayed on the other window.
+On the new "sequencer" window, set the scene selector to `EDIT`
+
+![select edit scene](../images/setup/seq_select_edit_scene.png)
+
+Open the side panel (`N` key with mouse over editor), go to the `SPA.sequencer` tab and point to the `EDIT` scene, then activate `Sync`.
+Now this window will control the scenes and shot displayed on the other window.
 
 ![Dual window setup](../images/setup/seq_dual_win_desc.png)
 
