@@ -40,11 +40,11 @@ If it does not work, go to `Edit > Preferences > addons` and uses `install from 
 
 ### Setup scenes
 
-First, we will need at least one extra scene for the sequence part.
+We will need at least one extra scene for the sequence part.
 
 Create a new scene and name it `EDIT`, then use the scene selector to reset current window to use `Scene` again (we will use the `EDIT` scene in as dedicated workspace in the next step)
 
-![add new scens](../images/setup/seq_create_scenes.png)
+![add new scenes](../images/setup/seq_create_scenes.png)
 
 > You can also create new scenes named with `TEMPLATE_SHOT_` prefix. After setup, new scenes can be created directly in sequencer using those templates.
 
@@ -60,9 +60,14 @@ To create an additional window, go to the main header menu: `Window > New Main W
 
 
 This new window will be used for the sequencer.  
-Remove all the editors to let only a `sequencer editor visible`
+Remove all the editors to let only a `sequencer editor visible`  
+Right-click on limits between editors area > click `Join Areas` > click on the side to remove.
 
-Arrange the window so it stay visible below the the previous one.
+Example using the `Video sequencer` workspace template as base:
+
+![Organise editors](../images/setup/seq_collapse_editors.gif)
+
+Arrange the window at the bottom of your screen so it stay visible below the the previous one.
 
 > Tips: On _Windows 11_, you can use the shortcut `Win + ↑` to stick the first windows at the top, then you can select the other window to go at the bottom, that automatically create a ""window group" in taskbar
 
@@ -98,7 +103,7 @@ For more details, you also have the written [Spa-sequencer documentation](https:
 
 Now you are in a shot, and you want to add a new grease pencil object.
 
-> most editor's sidebar open with `N` key
+> Most editor's sidebar open with `N` key
 
 Use `Storytools > Drawings` in viewport sidebar
 
