@@ -52,9 +52,9 @@ jobs:
         # I have no idea if this actually needed...
         uses: actions/configure-pages@v3
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v3
         with:
           path: 'site/' # MkDocs builds to site/ by default
       - name: Deploy to GitHub Pages
         id: deployment # This is required for environment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
