@@ -6,7 +6,7 @@ Note that everything is also detailed in the [Setup Project](tutorial/setup-proj
 
 ## Blender
 
-You need the software [Blender](https://www.blender.org/), with a mininum version of 4.0 and maximum version 4.2
+You need the software [Blender](https://www.blender.org/), preferably use latest stable version.
 
 
 ## Storytools addons

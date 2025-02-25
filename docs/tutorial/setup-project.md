@@ -18,17 +18,18 @@ This tutorial will explain how to work with the *Spa-sequencer* addon in Blender
 
 You need Blender software:
 
-Get latest [Blender on download page](https://www.blender.org/download/)  
-/!\ Use maximum 4.2, as 4.3+ use the new Grease pencil v3 and ar not compatible with lots of addon for now
+Get latest [Blender on download page](https://www.blender.org/download/)
 
 > If you want to manage multiple version and easy downloads, check [Blender launcher in resources section](./resources.md#blender-launcher)
 
 Next step is to download, install and enable the addons:
 
-- Get latest [storytools on repository page](https://github.com/Pullusb/storytools) or directly [download latest](https://github.com/Pullusb/storytools/archive/refs/heads/master.zip)
-- Get latest [SPArk (spa-sequencer fork) on repository's release page](https://github.com/NickTiny/SPArk-sequencer-addon/releases) (click on latest "spa_sequencer_x_x_x.zip")
+- Get latest [storytools on repository page](https://github.com/Pullusb/storytools) or directly [download latest](https://github.com/Pullusb/storytools/archive/refs/heads/master.zip) (For Blender 4.2 or below, get appropriate version from [release page](https://github.com/Pullusb/storytools/releases))
+- Get latest [SPArk (a more up to date fork or spa-sequencer) on repository's release page](https://github.com/NickTiny/SPArk-sequencer-addon/releases) (click on latest "spa_sequencer_x_x_x.zip")
 
-In Blender 4.2, you just have to drag and drop the zip file on Blender window.
+> Latest storytools version are incompatible with 4.2 and below
+
+Since Blender 4.2, you just have to drag and drop the zip file on the opened Blender window to install.
 
 If it does not work, go to `Edit > Preferences > addons` and uses `install from file`
 

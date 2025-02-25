@@ -19,17 +19,17 @@ You can collapse the bar or disable it completely in addon preferences
 
 Move active object perpendicular to view
 
+`Shift` : Precision mode  
+`Ctrl` : Lock on X or Y view axis depending on free movements    
 `X` (toggle) : lock on X view axis  
 `Y` (toggle) : lock on Y view axis  
-`Ctrl` : Lock on X or Y view axis depending on free movements    
-`Shift` : Precision mode  
 
 ### Move forward / backward
 
 Move the object in depth relative to camera.  
 
+`Shift` : Precision mode
 `Ctrl` : Adjust Scale so object retain same size in camera frame  
-`Shift` : Precision mode  
 `Alt` : Constraint on horizontal plane  
 
 > Note: even if you're in free navigation, The move is relative to camera
@@ -45,8 +45,8 @@ The overlay can be customised or disabled in addon preferences
 
 Rotate object on view axis
 
-`Ctrl` : Snap on 15 degrees angles  
 `Shift` : Precision mode  
+`Ctrl` : Snap on 15 degrees angles  
 
 ### Scale
 
@@ -58,8 +58,8 @@ Scale object, drag left<->right
 
 Align object with view
 
-`Ctrl` : Set object Z axis pointing up while aligning  
 `Shift` : Bring selected objects in front of camera  
+`Ctrl` : Set object Z axis pointing up while aligning  
 
 ### Key transform
 
@@ -70,32 +70,46 @@ Add key on object location, rotation and scale
 
 ## Camera actions
 
-### Move camera
+### Camera Pan / Shift
 
-Move the camera along view axis x-y plane (Pan)
+Move the camera along view axis x-y plane (Pan)  
+or affect shift value (Perspective camera only)
 
-Modifiers:  
+`Shift` : Precision mode  
 `X` (toggle) : lock on X view axis  
 `Y` (toggle) : lock on Y view axis  
-`Ctrl` : Lock on X or Y view axis depending on free movements  
+`Ctrl` (During) : Lock on X or Y view axis depending on free movements
+`Ctrl` (Start) : Use Camera shift the camera instead of pan:
+  - During shift transform :
+    <!-- - `Shift`: Precision mode
+    - `X`/`Y` (toggle) to lock on axis -->
+    - `Alt`: Snap on center and every half frame size
+    - And overlay is displayed to show centered frame position
+
+### Camera Depth / Focal/Ortho size
+
+Move camera on depth axis (forward or backward)  
+or affect camera "zoom"
+
 `Shift` : Precision mode  
+`Ctrl` (Start) : Affect camera focal lenght (perspective camera) or orthographic scale (ortho camera)
+
 
 ### Rotate
 
 Rotate camera, rotate view in free view
 
-`Ctrl` : Snap on 15 degrees angles  
 `Shift` : Precision mode  
+`Ctrl` : Snap on 15 degrees angles
 `Double click` : Reset rotation
 
-
-### Camera control
+### Camera lock
 
 In Camera view: Toggle "_lock camera to view_" (on active viewport)  
 In free view: Go to camera view  
 
-`Ctrl` : Center and resize view to fit camera bounds  
 `Shift` : Match view zoom to render resolution  
+`Ctrl` : Center and resize view to fit camera bounds  
 
 ### Key transform
 
@@ -103,6 +117,18 @@ Add key on active camera location and rotation
 
 
 ## Draw actions
+
+### Autokey toggle
+
+Toggle autokey (Set same state in all scenes)
+
+### Snap 3D Cursor
+
+Place 3d Cursor to selected object
+
+`Shift` : Send selection to 3d cursor
+`Drag from button`: Place 3D cursor on current GP drawing plane or geometry
+
 
 ### Lock current view
 
@@ -114,8 +140,7 @@ This way you can't accidentally go out of camera or ensure you stay in the same 
 
 If a Grease pencil object is active : Toggle between Draw mode and Object mode.  
 If no Grease pencil active. Set the first on visible in scene as active.  
-Popup "add GP" if no GP object exists in scene.
+
+`Shift` : Popup "add GP" (pop without shift when no GP object exists in scene)
 
 > Note that upper tool preset also set draw mode (in default settings)
-
-<!-- `Ctrl` : Add a new object -->

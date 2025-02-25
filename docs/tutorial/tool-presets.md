@@ -37,8 +37,7 @@ A tool preset can define :
 `tool`: Identifier of the tool to use
 `brush`: Name of the brush to use within tool
 `icon`: Icon to display
-`show`: Display the preset as button in preset bar interface (if hidden, the shortcut remains)
-<!-- `order`: The order to display on user interface -->
+`show`: Display the preset as button in preset bar interface (if hidden, the shortcut remains)<!-- `order`: The order to display on user interface -->
 
 ## Preset Management
 
@@ -46,11 +45,6 @@ In addon preferences of storytools go to the `Tool presets` tab
 
 Here you can disable or modify the default tool presets
 
-> /!\ for now, after changing the presets shortcurts, a blender restart is necessary to take effect on the associated preset bar button !
+The panel list all keymaps using the operator ID `storytools.set_draw_tool`, those are registered in keymaps under `Grease Pencil` > `Grease Pencil Stroke paint mode`.
 
-The panel list all keymaps using the operator `storytools.set_draw_tool`.
-
-You can add other shortcut in keymaps, under `Grease Pencil` > `Grease Pencil Stroke paint mode` and use the above operator ID.  
-Then customize the behavior, use existing preset as examples to customize behavior.
-
-> Note: In the future it will be possible to add shortcuts , reorder preset bar items and refesh from addon preferences
+You can add other shortcut directly from the preference. Use existing presets as examples to customize the behavior.
