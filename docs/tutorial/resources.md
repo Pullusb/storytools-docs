@@ -6,16 +6,16 @@ There are other addon that can be useful in a 2D animation workflow
 
 ### Grease Pencil Tools
 
-**Grease pencil tools** addon is available on the extensions platform (directly included in Blender before 4.2)
+**Grease pencil tools** addon is available on the extensions platform
 
 Here is the [Addon page and documentation of extension platform](https://extensions.blender.org/add-ons/grease-pencil-tools/)
 
-it add some quality of life tools:
+It add some quality of life tools:
 
-- Canvas rotation via a shortcut (`Ctrl + Alt + Mid Click` by default)
-- Box deformer
-- Timeline scrubbing in viewport
-- Quick layer navigator
+- Canvas rotation via a shortcut: `Ctrl + Alt + Mid Click`
+- Box deformer: `Ctrl + T`
+- Timeline scrubbing in viewport: `Alt + Mid Click`
+- Quick layer navigator: `Y` (continuous press)
 - Straighten Stroke
 
 > Recommended for both 2D animation and Storyboard workflow
