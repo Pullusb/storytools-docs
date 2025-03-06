@@ -52,10 +52,26 @@ Create a new scene and name it `EDIT`, then use the scene selector to reset curr
 
 ### Dual window setup
 
+Storytools is shipped with two template workspace, including a dual window mode:
+
+Load **workspace in a new file**: `File > New > Storyboard Dual Window`
+
+![Storyboard workspace as new file](../images/setup/wks_setup_in_new_file.png)
+
+Or load **workspace in current file**: Use dedicated _storytools setup menu_ in the top-right corner of the 3D viewport
+
+![Storyboard workspace to current file](../images/setup/wks_setup_in_current_file.png)
+
+Then go to step 2 of manual method below
+
 > Note that it's possible to use only one window as explained in this [video by Nick Alberelli](https://youtu.be/pQwSo5sGBeY?si=Cr25klWg8ASRRP_J&t=532)
 > But you'll have to jump back and forth between sequencer and drawing view.
 
-To create an additional window, go to the main header menu: `Window > New Main Window`
+#### Manual method
+
+1. To create an additional window, go to the main header menu: `Window > New Main Window`
+
+> it's important to create a new **Main** window so it can affect a different scene
 
 ![Dual windows](../images/setup/seq_dual_window.png)
 
@@ -68,7 +84,7 @@ Example using the `Video sequencer` workspace template as base:
 
 ![Organise editors](../images/setup/seq_collapse_editors.gif)
 
-Arrange the window at the bottom of your screen so it stay visible below the the previous one.
+2. Arrange the window at the bottom of your screen so it stay visible below the the previous one.
 
 > Tips: On _Windows 11_, you can use the shortcut `Win + ↑` to stick the first windows at the top, then you can select the other window to go at the bottom, that automatically create a ""window group" in taskbar
 

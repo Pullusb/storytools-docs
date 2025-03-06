@@ -14,7 +14,7 @@ Storytools is a Blender addon, it aim to ease the use of Blender for 2D animator
 
 ### Overview of storytools areas
 
-![Storytools areas](./images/home/storytools_ui_areas.png)
+![Storytools areas](./images/home/storytools_ui_areas.jpg)
 
 - <span style="color: #339966;">**Control Bar:** </span>([Doc page](./tutorial/story-toolbar.md)) Direct objects and camera controls in the viewport.
 - <span style="color: #3366ff;">**Sidebar Tab:** </span>([Doc page](./tutorial/sidebar-panels.md)) All in one properties view to manage grease pencils objects, layers, materials + cameras + additional operators.
