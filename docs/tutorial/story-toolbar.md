@@ -15,14 +15,30 @@ You can collapse the bar or disable it completely in addon preferences
 
 ## Object actions
 
-### Move
+### Move Pan
 
 Move active object perpendicular to view
+
+test video demo original mp4 624p (1.04 Mo)
+<video controls src="../videos/tools/ST-pan_tool.mp4" title="Pan tools"></video>
 
 `Shift` : Precision mode  
 `Ctrl` : Lock on X or Y view axis depending on free movements    
 `X` (toggle) : lock on X view axis  
 `Y` (toggle) : lock on Y view axis  
+
+test video demo file mp4 600p (0.88 Mo)
+
+<video controls src="../videos/tools/ST-pan_tool_600p.mp4" title="Pan Tools mp4 600p"></video>
+
+
+test video demo file webm 600p (1.0 Mo)
+
+[600p](../videos/tools/ST-pan_tool_600p.webm)
+
+testvideo demo file mp4 500p (0.64 Mo)
+
+<video controls src="../videos/tools/ST-pan_tool_500p.mp4" title="500p"></video>
 
 ### Move forward / backward
 
