@@ -19,41 +19,21 @@ You can collapse the bar or disable it completely in addon preferences
 
 Move active object perpendicular to view
 
-test video demo original mp4 624p (1.04 Mo)
-<video controls src="../videos/tools/ST-pan_tool.mp4" title="Pan tools"></video>
-
 `Shift` : Precision mode  
 `Ctrl` : Lock on X or Y view axis depending on free movements    
 `X` (toggle) : lock on X view axis  
 `Y` (toggle) : lock on Y view axis  
 
-test video demo file mp4 600p (0.88 Mo)
-
-<video controls src="../videos/tools/ST-pan_tool_600p.mp4" title="Pan Tools mp4 600p"></video>
-
-
-test video demo file webm 600p (1.0 Mo)
-
-[600p](../videos/tools/ST-pan_tool_600p.webm)
-
-
-test video demo file webm 600p (1.0 Mo) with embed html player
-
-<video controls src="../videos/tools/ST-pan_tool_600p.webm" title="Pan Tools webm"></video>
-
-testvideo demo file mp4 500p (0.64 Mo)
-
-<video controls src="../videos/tools/ST-pan_tool_500p.mp4" title="500p"></video>
+![object pan](../images/tools/ST-object_pan.gif)
 
 ### Move forward / backward
 
 Move the object in depth relative to camera.  
-
 `Shift` : Precision mode
 `Ctrl` : Adjust Scale so object retain same size in camera frame  
 `Alt` : Constraint on horizontal plane  
 
-> Note: even if you're in free navigation, The move is relative to camera
+> Note: even if you're in free navigation, The move is still relative to active camera
 
 During transform, there is a hint color overlay:
 
@@ -62,6 +42,8 @@ During transform, there is a hint color overlay:
 
 The overlay can be customised or disabled in addon preferences
 
+![object move on forward axis](../images/tools/ST-object_depth_move_lite.gif)
+
 ### Rotate
 
 Rotate object on view axis
@@ -69,11 +51,15 @@ Rotate object on view axis
 `Shift` : Precision mode  
 `Ctrl` : Snap on 15 degrees angles  
 
+![object rotate](../images/tools/ST-object_rotate.gif)
+
 ### Scale
 
 Scale object, drag left<->right
 
 `Shift` : Precision mode
+
+![object scale](../images/tools/ST-object_scale.gif)
 
 ### Align to view
 
@@ -82,12 +68,13 @@ Align object with view
 `Shift` : Bring selected objects in front of camera  
 `Ctrl` : Set object Z axis pointing up while aligning  
 
+![Align to view or bring](../images/tools/ST-object_align_bring.gif)
+
 ### Key transform
 
 Add key on object location, rotation and scale
 
 > Does not affect grease pencil layers frames
-
 
 ## Camera actions
 
@@ -100,21 +87,31 @@ or affect shift value (Perspective camera only)
 `X` (toggle) : lock on X view axis  
 `Y` (toggle) : lock on Y view axis  
 `Ctrl` (During) : Lock on X or Y view axis depending on free movements
+
+![camera shift](../images/tools/ST-camera_pan.gif)
+
+_Shift mode_  
 `Ctrl` (Start) : Use Camera shift the camera instead of pan:
   - During shift transform :
-    <!-- - `Shift`: Precision mode
-    - `X`/`Y` (toggle) to lock on axis -->
+    - Same toggles on `Shift, X, Y`
     - `Alt`: Snap on center and every half frame size
     - And overlay is displayed to show centered frame position
 
-### Camera Depth / Focal/Ortho size
+![camera shift](../images/tools/ST-camera_shift.gif)
+
+### Camera Depth / Focal Ortho-size
 
 Move camera on depth axis (forward or backward)  
 or affect camera "zoom"
 
 `Shift` : Precision mode  
+
+![camera move forward / backward](../images/tools/ST-camera_forward_move.gif)
+
+_Focal mode_  
 `Ctrl` (Start) : Affect camera focal lenght (perspective camera) or orthographic scale (ortho camera)
 
+![focal](../images/tools/ST-camera_focal.gif)
 
 ### Rotate
 
@@ -124,6 +121,8 @@ Rotate camera, rotate view in free view
 `Ctrl` : Snap on 15 degrees angles
 `Double click` : Reset rotation
 
+![camera rotate](../images/tools/ST-camera_rotate.gif)
+
 ### Camera lock
 
 In Camera view: Toggle "_lock camera to view_" (on active viewport)  
@@ -131,6 +130,8 @@ In free view: Go to camera view
 
 `Shift` : Match view zoom to render resolution  
 `Ctrl` : Center and resize view to fit camera bounds  
+
+![go and lock camera to view](../images/tools/ST-camera_go_and_lock.gif)
 
 ### Key transform
 
@@ -150,12 +151,15 @@ Place 3d Cursor to selected object
 `Shift` : Send selection to 3d cursor
 `Drag from button`: Place 3D cursor on current GP drawing plane or geometry
 
+![snap 3D cursor](../images/tools/ST-snap_cursor.gif)
 
 ### Lock current view
 
 Lock current viewport orbit navigation.  
 when toggled on, the orbit shortcut becomes and additional Pan.  
 This way you can't accidentally go out of camera or ensure you stay in the same view axis.
+
+![Lock orbit](../images/tools/ST-view_lock_to_pan.gif)
 
 ### Set draw mode
 

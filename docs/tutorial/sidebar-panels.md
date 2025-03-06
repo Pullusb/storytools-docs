@@ -72,6 +72,31 @@ This is individual per object but can be unified, usefull when ultiple objects u
 
 The native Brushes, color and palette panels are exposed here for convenience when working with custom brushes or using vertex color instead of material.
 
+About colors, there is an important distinction.
+
+Color on a grease pencil object can be stored in two different way.
+
+
+1. **Using material** (default method) : The color is stored on a material, each different color need it's own material.
+
+![color material](../images/interface/ui_color_material_mode.jpg)
+
+In this case, the stroke will take the color of the material selected in material stack at the moment of the drawing.
+
+> Tips: To easily create new material from a color in viewport (i.e: from an empty reference image), you can use the native eyedropper tool
+
+![native eyedropper](../images/interface/native_eyedropper.jpg)
+
+2. **Using Color attribute** (vertex color) : In this case, the colors are defined on the line points at creation.
+
+![color attributes](../images/interface/ui_color_attribute_mode.jpg)
+
+> Note: Actually the stroke is still associated with selected material. But the line points color simplly have full opacity over it
+
+The colors in storytools sidebar panel is just a bigger version of the header toggle.   
+
+![instanced native colors panel](../images/interface/colors_panel_in_storytools_sidebar.jpg)
+
 ## Tool
 
 Some extra tools that can proves handy
