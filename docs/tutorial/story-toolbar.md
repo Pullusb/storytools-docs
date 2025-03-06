@@ -36,6 +36,11 @@ test video demo file webm 600p (1.0 Mo)
 
 [600p](../videos/tools/ST-pan_tool_600p.webm)
 
+
+test video demo file webm 600p (1.0 Mo) with embed html player
+
+<video controls src="../videos/tools/ST-pan_tool_600p.webm" title="Pan Tools webm"></video>
+
 testvideo demo file mp4 500p (0.64 Mo)
 
 <video controls src="../videos/tools/ST-pan_tool_500p.mp4" title="500p"></video>
