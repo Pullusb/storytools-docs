@@ -3,127 +3,113 @@
 
 ## Quick access
 
-The sidebar contains all you need to manage your cameras and grease pencil objects
+The sidebar contains all you need to manage your cameras and grease pencil objects.
 
 ## Camera management
 
-Passepartout and opacity is exposed in panel header
+Passepartout and opacity are exposed in the panel header.
 
-In a storyboard context they will probably be only one per shot.  
-But having multiple allow testing alternative movements  
-Clicking on camera icon or name will make it active.  
+In a storyboard context, there will probably be only one camera per shot.  
+But having multiple allows testing alternative movements.  
+Clicking on the camera icon or name will make it active.  
 
 ### Camera lens
 
 The `lens` display can be disabled in subpanel.  
 
-A bunch of classic lens shortcut are provided in subpanel.
+A bunch of classic lens shortcuts are provided in subpanel.
 
 ### Track to constraint on object
 
-In some cases, it's more easy to handle the direction of the camera using a target in 3D space.  
-The `Add Track-to Constraint` create an empty object with camera contrained to look at it.
+In some cases, it's easier to handle the direction of the camera using a target in 3D space.  
+The `Add Track-to Constraint` creates an empty object with the camera constrained to look at it.
 
-> if an empty object is already selected it will be used as target
+> If an empty object is already selected, it will be used as target.
 
-The constraint can be managed or removed in the same subpanel
+The constraint can be managed or removed in the same subpanel.
 
 ### GP Toolbox Draw cam switch
 
-If the addon GP toolbox is enabled, a shortcut to the `Draw camera` switch appears in lateral menu buttons.  
-This feature allow rotating in camera view without affecting camera.  
-More on `GP toolbox` and the `Draw cam` in the [resources section](./resources.md#gp-toolbox)
+If the addon GP toolbox is enabled, a shortcut to the `Draw camera` switch appears in the lateral menu buttons.  
+This feature allows rotating in camera view without affecting the camera.  
+More on `GP toolbox` and the `Draw cam` in the [resources section](./resources.md#gp-toolbox).
 
 ## Grease Pencil Objects
 
-The Grease Pencil objects are listed here
+The Grease Pencil objects are listed here.
 
-Clicking on a GP in list will make it active regardless of previous mode.  
-If a GP was selected previously the mode will be transfered.  
+Clicking on a GP in the list will make it active regardless of the previous mode (except if it is hidden).  
+If a GP was selected previously, the mode will be transferred.  
 
-The grid display overlay representing the drawing plane is exposed in panel header
+The grid display overlay representing the drawing plane is exposed in the panel header.
 
 ### GP lateral menu
 
-`+` button, pop-up a menu to add new GP
+`+` button, pops up a menu to add a new GP.
 
-`Chain` button parent/unparent object to active camera (not a dynamic parent!)
+`Chain` button parents/unparents object to active camera (not a dynamic parent!).
 
 
-The submenu expose informations to display in the list:
+The submenu exposes information to display in the list:
 
-- `Show linked data` (Disabled by default) : Show when two GP use the same datablock
-- `Show parents` : Display a chain if object is parented
-- `In Front toggle` : Expose `In Front` object property, override depth order to show object in front of other
+- `Show linked data` (Disabled by default): Show when two GPs use the same datablock.
+- `Show parents`: Display a chain if the object is parented.
+- `In Front toggle`: Expose `In Front` object property, override depth order to show the object in front of others.
 
 
 ## Materials
 
-The same material list as in propertie panel, exposed in sidebar to be able to work without properties panel
+The same material list as in the properties panel, exposed in sidebar to be able to work without keeping properties panel.
 
 ### Layer-material Synchronisation
 
-This feature allow to link selected material with active layer.  
-when active, returning on this layer later will select the same material.  
-This is individual per object but can be unified, usefull when ultiple objects use same layer names and materials.
+This feature allow to link the selected material with the active layer.  
+When active, returning to this layer later will select the same material.  
+This is individual per object but can be unified, useful when multiple objects use the same layer names and materials.
 
 
 ## Native Brushes - Color - Palette
 
-The native Brushes, color and palette panels are exposed here for convenience when working with custom brushes or using vertex color instead of material.
+The native Brushes, color, and palette panels are exposed here for convenience when working with custom brushes or using vertex color instead of material.
 
 About colors, there is an important distinction.
 
-Color on a grease pencil object can be stored in two different way.
+Color on a grease pencil object can be stored in two different ways.
 
 
-1. **Using material** (default method) : The color is stored on a material, each different color need it's own material.
+1. **Using material** (default method): The color is stored on a material, each different color needs its own material.
 
 ![color material](../images/interface/ui_color_material_mode.jpg)
 
-In this case, the stroke will take the color of the material selected in material stack at the moment of the drawing.
+In this case, the stroke will take the color of the material selected in the material stack at the moment of the drawing.
 
-> Tips: To easily create new material from a color in viewport (i.e: from an empty reference image), you can use the native eyedropper tool
+> Tips: To easily create a new material from a visible color (i.e: from an empty reference image), you can use the native eyedropper tool.
 
 ![native eyedropper](../images/interface/native_eyedropper.jpg)
 
-2. **Using Color attribute** (vertex color) : In this case, the colors are defined on the line points at creation.
+2. **Using Color attribute** (vertex color): In this case, the colors are defined on the line points at creation.
 
 ![color attributes](../images/interface/ui_color_attribute_mode.jpg)
 
-> Note: Actually the stroke is still associated with selected material. But the line points color simplly have full opacity over it
+> Note: Actually, the stroke is still associated with the selected material. But the line points color simply have full opacity over it.
 
-The colors in storytools sidebar panel is just a bigger version of the header toggle.   
+The `colors` panel in the storytools tab is just a bigger version of the header toggle.  
 
 ![instanced native colors panel](../images/interface/colors_panel_in_storytools_sidebar.jpg)
 
 ## Tool
 
-Some extra tools that can proves handy
+Some extra tools that can prove handy.
 
 ### Align view
 
 
-`Align view to Object` : Set free view in front of object drawing plane
+`Align view to Object`: Set free view in front of the object drawing plane.
 
-`Opposite View` : Turn the free view by 180° to watch opposite side
-
-
-### Store / Restore settings
-
-`View Settings Presets` : Popup a panel to save or restore View settings
-
-These are all the settings related to view configuration and overlays.
-
-`Tool Settings Preset` : Popup a panel to save or restore Tool settings
-
-These are all the settings related to active tools: brush, thickness, opacity...
-
-
-Both settings can be restored to blender default by clicking on `Default`
+`Opposite View`: Turn free view by 180° to watch opposite side.
 
 
 ## Tools
 
-Extra _tools_ panel is added if addon `Grease Pencil Tools` is enabled.
-For more info on the addon go to the [resources section](./resources.md#grease-pencil-tools)
+An extra _tools_ panel is added if the addon `Grease Pencil Tools` is enabled.
+For more info on the addon go to the [resources section](./resources.md#grease-pencil-tools).

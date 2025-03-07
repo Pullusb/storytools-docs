@@ -1,5 +1,5 @@
 
-# Addon and documentation
+# Addon and documentation licences
 
 The [Storytools][storytools-addon] and this documentation
 are distributed under GPLv3 or later

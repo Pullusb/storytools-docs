@@ -2,12 +2,12 @@
 
 ## What is Storytools?
 
-Storytools is a Blender addon, it aim to ease the use of Blender for 2D animator and particularly for storyboard artist.
+Storytools is a Blender addon that aims to ease the use of Blender for 2D animators, particularly for storyboard artists.
 
 ### Main features
     
-- Simplify objects interaction with more direct controls for 2D oriented artists
-- Extend Blender storyboarding capabilities by exposing useful native features and adding new ones.
+- Simplifies object interaction with more direct controls for 2D-oriented artists
+- Extends Blender's storyboarding capabilities by exposing useful native features and adding new ones.
 
 ![Storytools overview](./images/home/storytools_ui_overview.jpg)
 

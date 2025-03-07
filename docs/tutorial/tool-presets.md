@@ -1,17 +1,17 @@
 # Tool Presets
 
-## What are tool presets ?
+## What are tool presets?
 
-In storyboard, you only need a handful of tools, with specific use.  
-The tool presets are like macros to set Blender tool with specific options in one action.  
-Each one is defined through a shortcut and appear as button in the `Tool preset topbar` at the top of the viewport.  
+In storyboard, you only need a handful of tools, each with a specific use.  
+The tool presets are like macros to set Blender tools with specific options in one action.  
+Each one is defined through a shortcut and appears as a button in the `Tool preset topbar` in the upper part of the viewport.  
 
-You can hide the topbar in addon preferences (the shortcuts will stay valid)  
-Topbar margin and spreading can be adjusted as well in preferences.
+You can hide the topbar in the add-on preferences (the shortcuts will remain valid).  
+Topbar margin and spreading can also be adjusted in preferences.
 
 ## Anatomy of a tool preset
 
-By hovering with the mouse, you can see what is affected in tooltip. Example with the default tool preset `Sketch`:
+By hovering with the mouse, you can see what is affected in the tooltip. Example with the `Sketch` default tool preset:
 
 ![Tool preset description](../images/interface/toolpreset_tooltip_anatomy.jpg)
 
@@ -23,7 +23,7 @@ Clicking on it will:
 
 ## Default tools presets and their shortcut
 
-> Note: The default tools are subject to changes in future in versions
+> Note: The default tools are subject to change in future versions.
 
 Default tools presets are associated with keyboard top row number keys and sorted by key order.
 
@@ -76,7 +76,7 @@ The panel list all related shortcuts (using the operator `storytools.set_draw_to
 
 You can add other shortcut directly from the preference. Use existing presets as examples to customize the behavior.
 
-Lastly, remember this is list are just the shortcuts and UI buttons are generated from those.  
-When you change something, you need to click on the `Reload UI` button to make change effective in the buttons in interface
+Lastly, remember this list is just the shortcuts and UI buttons are generated from those.  
+When you change something, you need to click on the `Reload UI` button to make the changes effective in the interface buttons.
 
 ![apply changes to UI](../images/interface/toolpreset_reload_changes_on_interface.jpg)

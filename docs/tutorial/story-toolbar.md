@@ -1,23 +1,23 @@
-# Control bar 
+# Control Bar 
 
 
-## What's in the bar ?
+## What's in the Bar?
 
-The bottom control bar contain some useful actions to move around object and camera.
+The bottom control bar contains some useful actions to move objects and camera.
 
 Most of the actions affect only active object/camera.
 
-Those actions work regardless of the mode you're in, meaning you can move active object without leaving draw mode.
+These actions work regardless of the mode you're in, meaning you can move the active object without leaving draw mode.
 
-Note: Some action are always relative to camera view, see details below
+Note: Some actions are always relative to camera view, see details below.
 
-You can collapse the bar or disable it completely in addon preferences
+You can collapse the bar or disable it completely in addon preferences.
 
 ## Object actions
 
 ### Move Pan
 
-Move active object perpendicular to view
+Move active object perpendicular to the view
 
 `Shift` : Precision mode  
 `Ctrl` : Lock on X or Y view axis depending on free movements    
@@ -28,25 +28,26 @@ Move active object perpendicular to view
 
 ### Move forward / backward
 
-Move the object in depth relative to camera.  
-`Shift` : Precision mode
-`Ctrl` : Adjust Scale so object retain same size in camera frame  
+Move the object in depth relative to the camera.  
+
+`Shift` : Precision mode  
+`Ctrl` : Adjust scale so the object retains the same size in camera frame  
 `Alt` : Constraint on horizontal plane  
 
-> Note: even if you're in free navigation, The move is still relative to active camera
+> Note: even if you're in free navigation, the move is still relative to the active camera
 
 During transform, there is a hint color overlay:
 
-- everything in tinted red is behind object
-- everything in tinted blue is in fron of object
+- everything tinted red is behind the object
+- everything tinted blue is in front of the object
 
-The overlay can be customised or disabled in addon preferences
+The overlay can be customized or disabled in the addon preferences
 
 ![object move on forward axis](../images/tools/ST-object_depth_move_lite.gif)
 
 ### Rotate
 
-Rotate object on view axis
+Rotate object on the view axis
 
 `Shift` : Precision mode  
 `Ctrl` : Snap on 15 degrees angles  
@@ -63,7 +64,7 @@ Scale object, drag left<->right
 
 ### Align to view
 
-Align object with view
+Align object with the view
 
 `Shift` : Bring selected objects in front of camera  
 `Ctrl` : Set object Z axis pointing up while aligning  
@@ -72,23 +73,23 @@ Align object with view
 
 ### Key transform
 
-Add key on object location, rotation and scale
+Add a key on the object's location, rotation, and scale
 
-> Does not affect grease pencil layers frames
+> Does not affect grease pencil layer frames
 
 ## Camera actions
 
 ### Camera Pan / Shift
 
-Move the camera along view axis x-y plane (Pan)  
-or affect shift value (Perspective camera only)
+Move camera along the view axis x-y plane (Pan)  
+or affect the shift value (Perspective camera only)
 
 `Shift` : Precision mode  
 `X` (toggle) : lock on X view axis  
 `Y` (toggle) : lock on Y view axis  
 `Ctrl` (During) : Lock on X or Y view axis depending on free movements
 
-![camera shift](../images/tools/ST-camera_pan.gif)
+![camera pan](../images/tools/ST-camera_pan.gif)
 
 _Shift mode_  
 `Ctrl` (Start) : Use Camera shift the camera instead of pan:
@@ -101,8 +102,8 @@ _Shift mode_
 
 ### Camera Depth / Focal Ortho-size
 
-Move camera on depth axis (forward or backward)  
-or affect camera "zoom"
+Move the camera on its depth axis (forward or backward)  
+or affect the camera "zoom"
 
 `Shift` : Precision mode  
 
@@ -115,11 +116,11 @@ _Focal mode_
 
 ### Rotate
 
-Rotate camera, rotate view in free view
+Rotate camera (rotate the view in free view)
 
 `Shift` : Precision mode  
 `Ctrl` : Snap on 15 degrees angles
-`Double click` : Reset rotation
+`Single click` : Reset rotation
 
 ![camera rotate](../images/tools/ST-camera_rotate.gif)
 
@@ -135,7 +136,7 @@ In free view: Go to camera view
 
 ### Key transform
 
-Add key on active camera location and rotation
+Add a key on the active camera's location and rotation
 
 
 ## Draw actions
@@ -146,7 +147,7 @@ Toggle autokey (Set same state in all scenes)
 
 ### Snap 3D Cursor
 
-Place 3d Cursor to selected object
+Place the 3D cursor to the selected object
 
 `Shift` : Send selection to 3d cursor
 `Drag from button`: Place 3D cursor on current GP drawing plane or geometry
@@ -156,15 +157,15 @@ Place 3d Cursor to selected object
 ### Lock current view
 
 Lock current viewport orbit navigation.  
-when toggled on, the orbit shortcut becomes and additional Pan.  
-This way you can't accidentally go out of camera or ensure you stay in the same view axis.
+When toggled on, the orbit shortcut becomes an additional Pan.  
+This way you can't accidentally go out of the camera or ensure you stay in the same view axis.
 
 ![Lock orbit](../images/tools/ST-view_lock_to_pan.gif)
 
 ### Set draw mode
 
-If a Grease pencil object is active : Toggle between Draw mode and Object mode.  
-If no Grease pencil active. Set the first on visible in scene as active.  
+If a Grease pencil object is active: Toggle between Draw mode and Object mode.  
+If no Grease pencil is active, set the first one visible in the scene as active.  
 
 `Shift` : Popup "add GP" (pop without shift when no GP object exists in scene)
 

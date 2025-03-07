@@ -8,7 +8,7 @@ To see what's changed, check the [Changelog](https://github.com/Pullusb/storytoo
 
 To signal a typo or an obsolete/incorrect text, submit an issue on the [documentation repository](https://github.com/Pullusb/storytools-docs)
 
-To learn more about the addon development, look at the [Blender conference talk showcasing the work in progress of storytools](https://conference.blender.org/2024/presentations/3891/) (october 2024)
+To learn more about the addon development, watch the [Storytools WIP Blender conference talk (October 2024)](https://conference.blender.org/2024/presentations/3891/)
 
 ## Reasons to use Storytools
 
