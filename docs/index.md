@@ -20,6 +20,7 @@ Storytools is a Blender addon, it aim to ease the use of Blender for 2D animator
 - <span style="color: #3366ff;">**Sidebar Tab:** </span>([Doc page](./tutorial/sidebar-panels.md)) All in one properties view to manage grease pencils objects, layers, materials + cameras + additional operators.
 - <span style="color: #ff0000;">**Tool Presets Bar:** </span>([Doc page](./tutorial/tool-presets.md)) Preset buttons and shortcuts to quickly swap grease pencil tools, brush, layers and more.
 
+**Viewport feature:** ([Doc page](./tutorial/viewport-features.md)) additional features not visible in screenshot above.
 
 ## Storyboard quick start
 

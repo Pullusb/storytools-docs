@@ -1,7 +1,5 @@
 # Tool Presets
 
-> WIP Note : the tool presets are still work in progress and subject to changes
-
 ## What are tool presets ?
 
 In storyboard, you only need a handful of tools, with specific use.  
@@ -15,7 +13,7 @@ Topbar margin and spreading can be adjusted as well in preferences.
 
 By hovering with the mouse, you can see what is affected in tooltip. Example with the default tool preset `Sketch`:
 
-![Tool preset description](../images/interface/toolpreset_tooltip_anatomy.png)
+![Tool preset description](../images/interface/toolpreset_tooltip_anatomy.jpg)
 
 Clicking on it will:
 - Set the `Draw` tool (from left Toolbar)
