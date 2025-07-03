@@ -2,7 +2,7 @@
 
 This repository contains the sources for the user documentation of the storytools Blender addon.
 
-[Go to the documentation](https://github.com/Pullusb/storytools-docs)
+[Go to published documentation](https://pullusb.github.io/storytools-docs/)
 
 [Go to Storytools addon page](https://github.com/Pullusb/storytools)
 
