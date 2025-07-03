@@ -39,6 +39,8 @@ If it does not work, go to `Edit > Preferences > Add-ons` and use `Install from 
 ## How to use Spa-sequencer in Blender standard
 
 
+Spark setup is partly described in the [storyboard demo video here at 1:22](https://youtu.be/DH2OaPa2kR4?si=g1uc7DqnyMhgymbR&t=81):
+
 ### Setup scenes
 
 We will need at least one extra scene for the sequence part.

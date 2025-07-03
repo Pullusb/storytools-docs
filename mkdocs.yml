@@ -17,7 +17,7 @@ nav:
   - Home: index.md
   - Tutorial:
       - Installation: tutorial/installation.md
-      - Static Storyboard : static-storyboard.md
+      - Static Storyboard : tutorial/static-storyboard.md
       - Project Setup : tutorial/setup-project.md
       - Sidebar Panels : tutorial/sidebar-panels.md
       - Control Bar : tutorial/story-toolbar.md

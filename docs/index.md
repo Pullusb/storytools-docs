@@ -4,15 +4,30 @@
 
 Storytools is a Blender addon that aims to ease the use of Blender for 2D animators, particularly for storyboard artists.
 
+
 ### Main features
     
 - Simplifies object interaction with more direct controls for 2D-oriented artists
 - Extends Blender's storyboarding capabilities by exposing useful native features and adding new ones.
 
+### Youtube Demo videos
+
+[**Storytools Full feature overview**](https://www.youtube.com/embed/u4pZSfaB-1k)
+
+[**Storyboard demonstration using Storytools + Spark**](https://www.youtube.com/embed/DH2OaPa2kR4)
+
+<!-- Full feature overview:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u4pZSfaB-1k" title="Feature Overview Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Storyboard demonstration:  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DH2OaPa2kR4" title="Storyboard Demonstration Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+
+### Overview of storytools interface
+
 ![Storytools overview](./images/home/storytools_ui_overview.jpg)
 
-
-### Overview of storytools areas
+Main areas:
 
 ![Storytools areas](./images/home/storytools_ui_areas.jpg)
 
